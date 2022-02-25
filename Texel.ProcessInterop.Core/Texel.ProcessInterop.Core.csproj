@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Nullable>enable</Nullable>
+        <LangVersion>9</LangVersion>
+        <RootNamespace>Texel.ProcessInterop</RootNamespace>
+        <TargetFrameworks>net472;net5.0;net6.0;netcoreapp3.1;netstandard2.1</TargetFrameworks>
+        <Version>1.0.0</Version>
+    </PropertyGroup>
+    
+    <PropertyGroup>
+        <PackageId>Texel.ProcessInterop.Core</PackageId>
+        <PackageVersion>1.0.0</PackageVersion>
+        <Description>
+            Core library for other process interop packages.
+        </Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/TexelProto/Texel.ProcessInterop</PackageProjectUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="src\IProcessLogger.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="nupkg" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Texel.ProcessInterop.Core", "Texel.ProcessInterop.Core\Texel.ProcessInterop.Core.csproj", "{99C86F32-E95D-4407-97B0-D51BC3A45E31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Texel.ProcessInterop.Master", "Texel.ProcessInterop.Master\Texel.ProcessInterop.Master.csproj", "{1DE4FED2-3855-4923-A616-B9DC6C19656B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Texel.ProcessInterop.Service", "Texel.ProcessInterop.Service\Texel.ProcessInterop.Service.csproj", "{70C4A8D3-AF6E-4D53-967B-143046195CC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Texel.ProcessInterop.Master.Python", "Texel.ProcessInterop.Master.Python\Texel.ProcessInterop.Master.Python.csproj", "{A0E92287-328E-497D-B233-F70A8C4AF591}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99C86F32-E95D-4407-97B0-D51BC3A45E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C86F32-E95D-4407-97B0-D51BC3A45E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C86F32-E95D-4407-97B0-D51BC3A45E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C86F32-E95D-4407-97B0-D51BC3A45E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DE4FED2-3855-4923-A616-B9DC6C19656B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE4FED2-3855-4923-A616-B9DC6C19656B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE4FED2-3855-4923-A616-B9DC6C19656B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE4FED2-3855-4923-A616-B9DC6C19656B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70C4A8D3-AF6E-4D53-967B-143046195CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C4A8D3-AF6E-4D53-967B-143046195CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C4A8D3-AF6E-4D53-967B-143046195CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C4A8D3-AF6E-4D53-967B-143046195CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E92287-328E-497D-B233-F70A8C4AF591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E92287-328E-497D-B233-F70A8C4AF591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E92287-328E-497D-B233-F70A8C4AF591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E92287-328E-497D-B233-F70A8C4AF591}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

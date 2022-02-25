@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Nullable>enable</Nullable>
+        <LangVersion>9</LangVersion>
+        <RootNamespace>Texel.ProcessInterop.Master.Python</RootNamespace>
+        <TargetFrameworks>net472;net5.0;net6.0;netcoreapp3.1;netstandard2.1</TargetFrameworks>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>Texel.ProcessInterop.Master.Python</PackageId>
+        <PackageVersion>1.0.*</PackageVersion>
+        <Description>
+            Core library for other process interop packages.
+        </Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/TexelProto/Texel.ProcessInterop</PackageProjectUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Texel.ProcessInterop.Master\Texel.ProcessInterop.Master.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.IO.Compression" Version="4.3.0" />
+    </ItemGroup>
+
+</Project>

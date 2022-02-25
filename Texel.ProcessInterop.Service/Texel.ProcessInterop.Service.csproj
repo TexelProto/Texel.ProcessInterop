@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Nullable>enable</Nullable>
+        <LangVersion>9</LangVersion>
+        <RootNamespace>Texel.ProcessInterop.Service</RootNamespace>
+        <TargetFrameworks>net472;net5.0;net6.0;netcoreapp3.1;netstandard2.1</TargetFrameworks>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PackageId>Texel.ProcessInterop.Service</PackageId>
+        <PackageVersion>$(PackageVersion)</PackageVersion>
+        <Description>
+            Core library for other process interop packages.
+        </Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/TexelProto/Texel.ProcessInterop</PackageProjectUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Texel.ProcessInterop.Core\Texel.ProcessInterop.Core.csproj" />
+    </ItemGroup>
+
+</Project>
